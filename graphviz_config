@@ -1,0 +1,173 @@
+digraph {
+	rankdir=LR
+	splines=line
+	{
+		rank=same
+		label="layer 1 (Input layer)"
+		x1_1 [color=blue4 shape=circle style=solid]
+		x1_2 [color=blue4 shape=circle style=solid]
+	}
+	x1_1 -> a2_1
+	x1_1 -> a2_2
+	x1_1 -> a2_3
+	x1_1 -> a2_4
+	x1_1 -> a2_5
+	x1_1 -> a2_6
+	x1_1 -> a2_7
+	x1_1 -> a2_8
+	x1_1 -> a2_9
+	x1_1 -> a2_10
+	x1_2 -> a2_1
+	x1_2 -> a2_2
+	x1_2 -> a2_3
+	x1_2 -> a2_4
+	x1_2 -> a2_5
+	x1_2 -> a2_6
+	x1_2 -> a2_7
+	x1_2 -> a2_8
+	x1_2 -> a2_9
+	x1_2 -> a2_10
+	{
+		rank=same
+		label="layer 2 (Hidden layer)"
+		x2_1 [color=red2 shape=circle style=solid]
+		x2_2 [color=red2 shape=circle style=solid]
+		x2_3 [color=red2 shape=circle style=solid]
+		x2_4 [color=red2 shape=circle style=solid]
+		x2_5 [color=red2 shape=circle style=solid]
+		x2_6 [color=red2 shape=circle style=solid]
+		x2_7 [color=red2 shape=circle style=solid]
+		x2_8 [color=red2 shape=circle style=solid]
+		x2_9 [color=red2 shape=circle style=solid]
+		x2_10 [color=red2 shape=circle style=solid]
+	}
+	x2_1 -> a3_1
+	x2_1 -> a3_2
+	x2_1 -> a3_3
+	x2_1 -> a3_4
+	x2_1 -> a3_5
+	x2_1 -> a3_6
+	x2_1 -> a3_7
+	x2_1 -> a3_8
+	x2_1 -> a3_9
+	x2_1 -> a3_10
+	x2_2 -> a3_1
+	x2_2 -> a3_2
+	x2_2 -> a3_3
+	x2_2 -> a3_4
+	x2_2 -> a3_5
+	x2_2 -> a3_6
+	x2_2 -> a3_7
+	x2_2 -> a3_8
+	x2_2 -> a3_9
+	x2_2 -> a3_10
+	x2_3 -> a3_1
+	x2_3 -> a3_2
+	x2_3 -> a3_3
+	x2_3 -> a3_4
+	x2_3 -> a3_5
+	x2_3 -> a3_6
+	x2_3 -> a3_7
+	x2_3 -> a3_8
+	x2_3 -> a3_9
+	x2_3 -> a3_10
+	x2_4 -> a3_1
+	x2_4 -> a3_2
+	x2_4 -> a3_3
+	x2_4 -> a3_4
+	x2_4 -> a3_5
+	x2_4 -> a3_6
+	x2_4 -> a3_7
+	x2_4 -> a3_8
+	x2_4 -> a3_9
+	x2_4 -> a3_10
+	x2_5 -> a3_1
+	x2_5 -> a3_2
+	x2_5 -> a3_3
+	x2_5 -> a3_4
+	x2_5 -> a3_5
+	x2_5 -> a3_6
+	x2_5 -> a3_7
+	x2_5 -> a3_8
+	x2_5 -> a3_9
+	x2_5 -> a3_10
+	x2_6 -> a3_1
+	x2_6 -> a3_2
+	x2_6 -> a3_3
+	x2_6 -> a3_4
+	x2_6 -> a3_5
+	x2_6 -> a3_6
+	x2_6 -> a3_7
+	x2_6 -> a3_8
+	x2_6 -> a3_9
+	x2_6 -> a3_10
+	x2_7 -> a3_1
+	x2_7 -> a3_2
+	x2_7 -> a3_3
+	x2_7 -> a3_4
+	x2_7 -> a3_5
+	x2_7 -> a3_6
+	x2_7 -> a3_7
+	x2_7 -> a3_8
+	x2_7 -> a3_9
+	x2_7 -> a3_10
+	x2_8 -> a3_1
+	x2_8 -> a3_2
+	x2_8 -> a3_3
+	x2_8 -> a3_4
+	x2_8 -> a3_5
+	x2_8 -> a3_6
+	x2_8 -> a3_7
+	x2_8 -> a3_8
+	x2_8 -> a3_9
+	x2_8 -> a3_10
+	x2_9 -> a3_1
+	x2_9 -> a3_2
+	x2_9 -> a3_3
+	x2_9 -> a3_4
+	x2_9 -> a3_5
+	x2_9 -> a3_6
+	x2_9 -> a3_7
+	x2_9 -> a3_8
+	x2_9 -> a3_9
+	x2_9 -> a3_10
+	x2_10 -> a3_1
+	x2_10 -> a3_2
+	x2_10 -> a3_3
+	x2_10 -> a3_4
+	x2_10 -> a3_5
+	x2_10 -> a3_6
+	x2_10 -> a3_7
+	x2_10 -> a3_8
+	x2_10 -> a3_9
+	x2_10 -> a3_10
+	{
+		rank=same
+		label="layer 3 (Hidden layer)"
+		x3_1 [color=red2 shape=circle style=solid]
+		x3_2 [color=red2 shape=circle style=solid]
+		x3_3 [color=red2 shape=circle style=solid]
+		x3_4 [color=red2 shape=circle style=solid]
+		x3_5 [color=red2 shape=circle style=solid]
+		x3_6 [color=red2 shape=circle style=solid]
+		x3_7 [color=red2 shape=circle style=solid]
+		x3_8 [color=red2 shape=circle style=solid]
+		x3_9 [color=red2 shape=circle style=solid]
+		x3_10 [color=red2 shape=circle style=solid]
+	}
+	x3_1 -> a4_1
+	x3_2 -> a4_1
+	x3_3 -> a4_1
+	x3_4 -> a4_1
+	x3_5 -> a4_1
+	x3_6 -> a4_1
+	x3_7 -> a4_1
+	x3_8 -> a4_1
+	x3_9 -> a4_1
+	x3_10 -> a4_1
+	{
+		rank=same
+		label="layer 4 (Output layer)"
+		x4_1 [color=seagreen2 shape=circle style=solid]
+	}
+}
